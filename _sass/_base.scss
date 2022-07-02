@@ -348,4 +348,33 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+#services2 {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
 
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-box2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+}
+
+.service-box2 p,
+.service-box2 h3 {
+	width: 80%;
+	background: red;
+	padding: 3px;
+	margin: 0;
+	text-align: center;
+}
