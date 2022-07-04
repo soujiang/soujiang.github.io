@@ -414,3 +414,24 @@ body {
 	align-items: center;
     background:blue;
 }
+#partners {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.titlepartners {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.partnerchips {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
