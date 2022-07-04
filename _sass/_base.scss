@@ -393,6 +393,7 @@ body {
 	height: 100%;
     padding: 0;
     margin: 0;
+    background: red;
 }
 
 .airdroptxt {
@@ -427,6 +428,7 @@ body {
 	height: 100%;
     padding: 0;
     margin: 0;
+    background:green;
 }
 
 .titlepartners {
@@ -441,4 +443,9 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
 }
