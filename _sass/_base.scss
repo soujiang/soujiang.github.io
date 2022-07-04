@@ -382,3 +382,39 @@ body {
 	margin: 0;
 	text-align: center;
 }
+#airdrop {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+.airdroptxt {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.airdroptxt p {
+	text-align: justify;
+	width: 80%;
+}
+
+.airdropbottoms {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 70%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.airdropbottoms a {
+	padding:3px;
+}
