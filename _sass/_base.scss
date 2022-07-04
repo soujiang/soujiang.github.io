@@ -348,6 +348,8 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+/*SERVICE*/
 #services2 {
 	display:flex;
 	flex-wrap: wrap;
@@ -382,12 +384,15 @@ body {
 	margin: 0;
 	text-align: center;
 }
+/*AIRDROP*/
 #airdrop {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 100%;
 	height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .airdroptxt {
@@ -412,12 +417,16 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
+
+/*PARTNERS*/
 #partners {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .titlepartners {
