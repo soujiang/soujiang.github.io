@@ -400,7 +400,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	width: 30%;
-	height: 30em;
 	justify-content: center;
 	align-items: center;
 }
@@ -414,7 +413,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	width: 70%;
-	height: 30em;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -445,7 +443,3 @@ body {
 	align-items: center;
 }
 
-.container {
-    padding: 0;
-    margin: 0;
-}
