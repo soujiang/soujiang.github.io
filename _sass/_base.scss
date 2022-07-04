@@ -397,7 +397,6 @@ body {
 	height: 30em;
 	justify-content: center;
 	align-items: center;
-    background:red;
 }
 
 .airdroptxt p {
@@ -410,9 +409,8 @@ body {
 	flex-wrap: wrap;
 	width: 70%;
 	height: 30em;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-    background:blue;
 }
 #partners {
 	display: flex;
