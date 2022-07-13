@@ -443,6 +443,7 @@ body {
 .howtoparticipate {
     display:flex;
     flex:wrap;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
 }
