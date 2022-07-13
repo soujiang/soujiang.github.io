@@ -402,9 +402,16 @@ body {
 	align-items: center;
 }
 
-.airdroptxt p {
-	text-align: justify;
-	width: 80%;
+.airdroptxtitle {
+    display: flex;
+    flex:wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.airdroptext {
+    text-align: justify;
 }
 
 .airdropbottoms {
@@ -413,6 +420,18 @@ body {
 	width: 70%;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.howtoparticipate {
+    display:flex;
+    flex:wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlehowto {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*PARTNERS*/
@@ -438,16 +457,4 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-}
-
-.howtoparticipate {
-    display:flex;
-    flex:wrap;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-
-.titlehowto {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
