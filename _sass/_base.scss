@@ -405,7 +405,7 @@ body {
 .airdroptxtitle {
     display: flex;
     flex:wrap;
-    width: 80%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: red;
@@ -413,6 +413,8 @@ body {
 
 .airdroptext {
     text-align: justify;
+    width:80%;
+    background:red;
 }
 
 .airdropbottoms {
