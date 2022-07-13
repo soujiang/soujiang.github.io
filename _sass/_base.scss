@@ -408,13 +408,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: red;
+}
+
+.airdroptxtitle h2 {
+    margin: 0 0 3px 0;
 }
 
 .airdroptext {
     text-align: justify;
-    width:80%;
-    background:red;
+    width:90%;
 }
 
 .airdropbottoms {
