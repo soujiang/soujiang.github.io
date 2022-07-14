@@ -469,5 +469,9 @@ body {
 /*TEAM*/
 
 #team {
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    width: 100%;
     background-image: url('../img/worldteam.gif');
 }
