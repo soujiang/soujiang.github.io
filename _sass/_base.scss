@@ -469,7 +469,8 @@ body {
 /*TEAM*/
 
 #team {
-    background: url('../img/tierra-team.png'), url('../img/worldteam.gif') no-repeat center center fixed;
+    background: url('../img/worldteam.gif') no-repeat center center fixed;
+    background-image: url('../img/tierra-team.png');
     background-size: cover;
     height: 360px;
     overflow: hidden;
