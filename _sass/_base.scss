@@ -481,6 +481,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    min-height: 100% !important;
     height: 100%;
     background:red;
 }
