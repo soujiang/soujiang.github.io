@@ -470,8 +470,13 @@ body {
 
 #team {
     background: url('../img/worldteam.gif') no-repeat center center fixed;
-    background-image: url('../img/tierra-team.png');
     background-size: cover;
-    height: 360px;
+    height: 100%;
     overflow: hidden;
+}
+
+.imgteamsection {
+    display: flex;
+    justify-content: center;
+    buttom:-4rem;
 }
