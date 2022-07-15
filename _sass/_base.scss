@@ -490,12 +490,15 @@ body {
     justify-content: center;
     align-items: center;
     width:100%;
+    padding:3px;
 }
 
-.teamers h3,
-.teamers h4 {
-    padding:5px;
+.teamers h4,
+.teamers h5 {
+    padding:0;
     margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 .teamers img {
