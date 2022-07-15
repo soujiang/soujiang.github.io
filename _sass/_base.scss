@@ -477,8 +477,15 @@ body {
 
 .imgteamsection {
     display: flex;
+    flex-direction:column;
+    flex:wrap;
     justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-    width:100%;
+}
+
+.conteamers {
+    display: flex;
+    flex:wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
 }
