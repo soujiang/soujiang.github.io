@@ -487,9 +487,9 @@ body {
     display: flex;
     flex-direction:column;
     flex:wrap;
-    justify-content: space-between;
-    align-items: space-between;
-    background:green;
+    justify-content: flex-end;
+    align-items: center;
+    background:red;
     width:100%;
 }
 
