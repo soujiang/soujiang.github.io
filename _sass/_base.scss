@@ -479,8 +479,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background:brown;
+    background:red;
     height: 100%;
     width:100%;
-    margin-top: 10px;
+}
+
+.imgteamsection img {
+    bottom:-1em;
 }
