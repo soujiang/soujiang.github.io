@@ -476,8 +476,10 @@ body {
 }
 
 .imgteamsection {
-    top: -4rem;
-    background:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:grey;
     height: 100%;
     width:100%;
 }
