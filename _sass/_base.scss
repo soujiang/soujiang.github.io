@@ -483,6 +483,14 @@ body {
     height: 100%;
 }
 
+.imgteamsection div {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .teamers {
     display: flex;
     flex-direction:column;
@@ -493,6 +501,7 @@ body {
     padding:3px;
 }
 
+.imgteamsection h3,
 .teamers h4,
 .teamers h5 {
     padding:0;
