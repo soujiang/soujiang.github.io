@@ -427,7 +427,6 @@ body {
 	width: 100%;
 	justify-content: space-around;
 	align-items: space-around;
-    background:red;
 }
 
 .howtoparticipate {
@@ -448,6 +447,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.howtobottoms {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background:green;
 }
 
 /*PARTNERS*/
