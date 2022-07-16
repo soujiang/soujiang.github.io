@@ -388,7 +388,6 @@ body {
 #airdrop {
 	display: flex;
 	flex-wrap: wrap;
-    flex-direction: column;
 	width: 100%;
     padding: 0;
     margin: 10px;
@@ -405,6 +404,7 @@ body {
 .airdroptxtitle {
     display: flex;
     flex:wrap;
+    width:95%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -424,9 +424,9 @@ body {
 .airdropbottoms {
 	display: flex;
 	flex-wrap: wrap;
-	width: 70%;
+	width: 100%;
 	justify-content: space-around;
-	align-items: center;
+	align-items: space-around;
 }
 
 .howtoparticipate {
