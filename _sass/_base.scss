@@ -455,7 +455,6 @@ body {
     justify-content: center;
     align-items: center;
     width:100%;
-    background:blue;
 }
 
 .wow {
@@ -470,7 +469,6 @@ body {
 	width: 100%;
     padding: 0;
     margin: 0;
-    background:green;
 }
 
 .titlepartners {
@@ -492,6 +490,7 @@ body {
     background: url('../img/worldteam.gif') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
+    height: 80%;
 }
 
 .imgteamsection {
