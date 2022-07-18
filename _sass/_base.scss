@@ -544,13 +544,12 @@ body {
 .partnersection {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin:5px;
 }
 
 .partnersection a img{
-    width:50%;
-    height: 50%;
+    width:30%;
+    height: 30%;
 }
