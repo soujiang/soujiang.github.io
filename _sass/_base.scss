@@ -349,6 +349,23 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+/*HEADER*/
+
+.headervcontent {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+}
+
+.headerv {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+}
 
 /*SERVICE*/
 #descentralization {
