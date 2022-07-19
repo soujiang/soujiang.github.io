@@ -508,8 +508,14 @@ body {
 /*TEAM*/
 
 #team {
-    background: url('../img/worldteam.gif') no-repeat;
-    width:100%;
+    background-image: url('../img/worldteam.gif') no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    text-align: center;
+    color: white;
 }
 
 /*TEAM VERSION CSS*/
