@@ -507,22 +507,18 @@ body {
 }
 /*TEAM*/
 
-#team {
-    background-image: url('../img/worldteam.gif');
-    position: relative;
+#team { 
     width: 100%;
     height: 700px;
-    min-height: auto;
-    @include background-cover;
-    background-position: center;
-    text-align: center;
-    color: white;
     overflow: hidden;
 }
 
 /*TEAM VERSION CSS*/
 
 .teanv {
+    background-image: url('../img/worldteam.gif');
+    position: relative;
+    width:100%;
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:column;
