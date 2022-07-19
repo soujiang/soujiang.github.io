@@ -517,7 +517,7 @@ body {
     background-image: url('../img/worldteam.gif');
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 800px;
     min-height: auto;
     @include background-cover;
     background-position: center;
@@ -541,7 +541,6 @@ body {
 	height:100%;
 	justify-content:center;
 	align-items:center;
-    margin-top:1em;
 }
 
 .teamvcont h2 {
@@ -550,6 +549,7 @@ body {
 	justify-content:center;
 	align-items:center;
     color: white;
+    margin-top:1em;
 }
 
 .teampeople {
