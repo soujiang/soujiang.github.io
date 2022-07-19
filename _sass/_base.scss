@@ -369,6 +369,14 @@ body {
 	height:100%;
 }
 
+.headerbottoms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
 /*SERVICE*/
 #descentralization {
 	display:flex;
