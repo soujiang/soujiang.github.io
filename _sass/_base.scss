@@ -431,83 +431,91 @@ body {
 	text-align: center;
 }
 /*AIRDROP*/
-#airdrop {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-    padding: 0;
-    margin: 10px;
-    background: #000106;
+#airdrop{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	background:#001222;
+	padding: 1em 0 1em 0;
 }
 
-.airdroptxt {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
+/*INTRO*/
+.airdropcontent {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:85%;
+}
+
+.airdroptxt{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
 }
 
 .airdroptxtitle {
-    display: flex;
-    flex:wrap;
-    width:95%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
 }
 
-.airdroptxtitle h2 {
-    margin-top: 0;
-    margin-bottom: 5px;
+.airdroptxtitle h2,
+.airdroptxtitle p {
+	margin:0;
+	padding:0;
 }
 
 .airdroptext {
-    text-align: justify;
-    width:90%;
-    margin-top: 5px;
+	text-align:justify;
+	width:50%;
 }
+
+/*BOTONES*/
 
 .airdropbottoms {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-around;
-	align-items: space-around;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	width:80%;	
 }
 
 .howtoparticipate {
-    display:flex;
-    flex:wrap;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	margin: 10px 0 10px 0;
 }
 
-.titlehowto {
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:5px;
-}
-
-.howtoparticipate {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.howtoparticipate h2 {
+	padding:0;
+	margin:0 0 10px 0;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .howtobottoms {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
+	width:100%;
 }
 
-.wow {
-    margin:5px;
-}
 /*TEAM*/
 
 #team {
