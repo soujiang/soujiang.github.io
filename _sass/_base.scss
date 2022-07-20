@@ -452,6 +452,11 @@ body {
 	width:85%;
 }
 
+.airdropcontent h2,
+.airdropcontent p {
+    color:white;
+}
+
 .airdroptxt{
 	display:flex;
 	flex-wrap:wrap;
@@ -482,6 +487,9 @@ body {
 }
 
 /*BOTONES*/
+.air {
+    margin:10px;
+}
 
 .airdropbottoms {
 	display:flex;
