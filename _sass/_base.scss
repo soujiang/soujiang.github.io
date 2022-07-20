@@ -469,7 +469,7 @@ body {
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	width:100%;
+	width:90%;
 }
 
 .airdroptxtitle {
@@ -483,13 +483,13 @@ body {
 
 .airdroptxtitle h2,
 .airdroptxtitle p {
-	margin:0;
+	margin:10px 0 5px 0;
 	padding:0;
 }
 
 .airdroptext {
 	text-align:justify;
-	width:60%;
+	width:100%;
 }
 
 .airdroptext p {
