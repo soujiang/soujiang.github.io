@@ -448,14 +448,14 @@ body {
 	padding: 1em 0 1em 0;
 }
 
-/*INTRO*/
+    /*INTRO -AIRDROP*/
 .airdropcontent {
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	width:85%;
+	width:90%;
 }
 
 .airdropcontent h2,
@@ -492,7 +492,7 @@ body {
 	width:50%;
 }
 
-/*BOTONES*/
+    /*BOTONES AIRDROP*/
 .air {
     margin:10px;
 }
