@@ -463,13 +463,13 @@ body {
     color:white;
 }
 
-.airdroptxt{
+.airdroptxt {
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	width:90%;
+	width:50%;
 }
 
 .airdroptxtitle {
@@ -488,12 +488,13 @@ body {
 }
 
 .airdroptext {
-	text-align:justify;
+	text-align:center;
 	width:100%;
 }
 
 .airdroptext p {
     width:100%;
+    text-align:justify;
 }
 
     /*BOTONES AIRDROP*/
