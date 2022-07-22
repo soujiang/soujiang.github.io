@@ -545,13 +545,25 @@ body {
 	background:grey;
 }
 
-.contteam,
+.contteam {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	width:100%;
+}
+
 .peoplegroup {
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:column;
 	justify-content:space-around;
 	align-items:center;
+    background-image: url('../img/rayos.gif');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 	width:100%;
 }
 
@@ -569,10 +581,6 @@ body {
 	flex-wrap:wrap;
 	justify-content:space-around;
 	align-items:center;
-    background-image: url('../img/rayos.gif');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
 	width:100%;
 }
 
