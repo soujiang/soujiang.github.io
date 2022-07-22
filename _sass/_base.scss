@@ -543,7 +543,6 @@ body {
 
 #team {
 	background:grey;
-	background-image:url ("*")
 }
 
 .contteam,
@@ -570,7 +569,7 @@ body {
 	flex-wrap:wrap;
 	justify-content:space-around;
 	align-items:center;
-	background:red;
+    background-image: url('../img/rayos.gif');
 	width:100%;
 }
 
