@@ -686,7 +686,15 @@ body {
 	width:95%;
 }
 
-.rowsn,
+.rowsn {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+}
+
 .encabezamiento {
 	display:flex;
 	flex-wrap:wrap;
