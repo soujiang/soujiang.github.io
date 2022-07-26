@@ -668,3 +668,60 @@ body {
     height: auto;
 	margin: 10px 0 10px 0;
 }
+
+/*FOOTER REDES SOCIALES*/
+
+#contact {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+
+.containersn {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:95%;
+}
+
+.rowsn,
+.encabezamiento {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+}
+
+.encabezamiento p {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:justify;
+	align-items:center;
+	width:85%;
+}
+
+.footsocialnetworks {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	width:85%;
+}
+
+.redessociales {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:50px;
+	margin: 10px 0 10px 0;
+}
+
+.redessociales i{
+	color:grey;
+}
