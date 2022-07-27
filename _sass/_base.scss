@@ -410,7 +410,11 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-    background:#001222;
+	background:#001222;
+    background-image: url('../img/descentralization.gif');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 15px;
     padding-bottom: 15px;
     margin:0;
