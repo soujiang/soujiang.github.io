@@ -456,7 +456,13 @@ body {
 	align-items:center;
 	width:100%;
 	background:#001222;
-	padding: 1em 0 1em 0;
+    background-image: url('../img/lightblue.gif');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:0;
 }
 
     /*INTRO -AIRDROP*/
