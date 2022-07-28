@@ -638,7 +638,11 @@ body {
 /*PARTNERS*/
 
 #partners {
-	background:blue;
+	background:#001222;
+    background-image: url('../img/descentralization.gif');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 	width:100%;
 }
 
@@ -649,7 +653,6 @@ body {
 	justify-content:space-around;
 	align-items:center;
 	width:100%;
-	background:green;
 }
 
 .partnerscol h2 {
@@ -658,7 +661,6 @@ body {
 	justify-content:space-around;
 	align-items:center;
 	width:100%;
-	background:red;
 }
 
 .imalinkspartners,
@@ -669,7 +671,6 @@ body {
 	justify-content:space-around;
 	align-items:center;
 	width:95%;
-	background:lightblue;
 }
 
 .imalinkspartners a {
